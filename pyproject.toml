@@ -15,7 +15,7 @@ scipy = "^1.0"
 numba = {version = ">=0.55", markers = "implementation_name == 'cpython'"}
 mkdocs = {version = ">=1.1.2", optional = true, markers = "implementation_name == 'cpython'"}
 mktheapidocs = {version = ">=0.2", optional = true, markers = "implementation_name == 'cpython'"}
-pymdown-extensions = {version = "^8", optional = true, markers = "implementation_name == 'cpython'"}
+pymdown-extensions = {version = ">=8,<11", optional = true, markers = "implementation_name == 'cpython'"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0"
